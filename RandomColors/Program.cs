@@ -5,11 +5,13 @@ using LogicaNegocios;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.Configure<RandomColors.RandomColorsStoreDatabaseSettings>(builder.Configuration.GetSection("InteractionStoreDatabase"));
+builder.Services.Configure<RandomColors.RandomColorsStoreDatabaseSettings>(builder.Configuration.GetSection("RandomColorsStoreDatabase"));
 builder.Services.AddTransient<InteractionService>();
 builder.Services.AddScoped<InteractionService>();
 builder.Services.AddScoped<InteractionLN>();
 builder.Services.AddControllers();
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace LogicaNegocios
 {
-     public class InteractionLN
+    public class InteractionService
     {
-        private readonly InteractionService _interactionRepository;
+        private readonly Dal.InteractionRepository _interactionRepository;
 
-        public InteractionLN(InteractionService interactionRepository)
+        public InteractionService(InteractionRepository interactionRepository)
         {
             _interactionRepository = interactionRepository;
         }
@@ -22,8 +22,6 @@ namespace LogicaNegocios
             // Puedes agregar lógica adicional aquí si es necesario
             return await _interactionRepository.GetAsync();
         }
-
-
 
     }
 }

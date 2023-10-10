@@ -1,14 +1,30 @@
 using Dal;
 using Google.Api;
 using LogicaNegocios;
+using Microsoft.Extensions.Configuration;
+using RandomColors;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.Configure<Entities.Models.RandomColorsStoreDatabaseSettings>(builder.Configuration.GetSection("RandomColorsStoreDatabase"));
+builder.Services.AddSingleton<InteractionRepository>();
+
 // Add services to the container.
-builder.Services.Configure<RandomColors.RandomColorsStoreDatabaseSettings>(builder.Configuration.GetSection("RandomColorsStoreDatabase"));
-builder.Services.AddTransient<InteractionService>();
+// builder.Services.Configure<RandomColors.RandomColorsStoreDatabaseSettings>(builder.Configuration.GetSection("RandomColorsStoreDatabase"));
 builder.Services.AddScoped<InteractionService>();
-builder.Services.AddScoped<InteractionLN>();
+
+
+/*
+ builder.Services.AddScoped<InteractionRepository>();
+builder.Services.AddSingleton(provider =>
+{
+    var configuration = provider.GetRequiredService<IConfiguration>();
+    return configuration.GetConnectionString("RandomColorsStoreDatabase:ConnectionString");
+});
+
+ */
+// builder.Services.AddScoped<InteractionRepository>();
+
 builder.Services.AddControllers();
 
 

@@ -1,3 +1,4 @@
+using Dal;
 using Entities.Models;
 using LogicaNegocios;
 using Microsoft.AspNetCore.Mvc;
@@ -14,13 +15,14 @@ namespace RandomColors.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
-        private readonly InteractionLN _interactionLN;
+       
+        private readonly InteractionService _interactionService;
       
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, InteractionLN interactionLN)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, InteractionService interactionService)
         {
             _logger = logger;
-            _interactionLN = interactionLN;
+            _interactionService = interactionService;
         }
 
 //        [HttpGet(Name = "GetWeatherForecast")]
@@ -41,7 +43,7 @@ namespace RandomColors.Controllers
         public async Task<List<Interaction>> GetInteractionsAsync()
         {
             // Puedes agregar lógica adicional aquí si es necesario
-            return await _interactionLN.GetInteractionsAsync();
+            return await _interactionService.GetInteractionsAsync();
         }
 
 

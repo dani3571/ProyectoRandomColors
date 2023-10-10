@@ -1686,7 +1686,8 @@
     "net6.0": [
       "Entities >= 1.0.0",
       "Google.Cloud.Firestore >= 3.4.0",
-      "Microsoft.Extensions.Options >= 7.0.1"
+      "Microsoft.Extensions.Options >= 7.0.1",
+      "MongoDB.Driver >= 2.22.0"
     ]
   },
   "packageFolders": {
@@ -1739,6 +1740,10 @@
           "Microsoft.Extensions.Options": {
             "target": "Package",
             "version": "[7.0.1, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.22.0, )"
           }
         },
         "imports": [

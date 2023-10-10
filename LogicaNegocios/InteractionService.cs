@@ -3,9 +3,10 @@ using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-
+using Microsoft.AspNetCore.Http;
 namespace LogicaNegocios
 {
     public class InteractionService
@@ -22,19 +23,47 @@ namespace LogicaNegocios
             // Puedes agregar lógica adicional aquí si es necesario
             return await _interactionRepository.GetAsync();
         }
+        // string ip, string hora, string reaccion
 
-        public async Task CreateInteractionAsync(string ip, string hora, string reaccion)
+        public async Task CreateInteractionAsync(InteractionDTo interactionDTo, string ip)
         {
             try
             {
-                // Generar colores con redes neuronales y asignarlos a TextColor y ContentColor
+
+                string hora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
                 string textColor = GenerarColorConRedesNeuronales();
                 string contentColor = GenerarColorConRedesNeuronales();
 
-                // Obtener la hora actual y convertirla a un formato deseado
-          //      string hora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                var interaction = new Interaction
+                {
+                    Ip = ip,
+                    Hora = hora,
+                    TextColor = textColor,
+                    ContentColor = contentColor,
+                    Reaccion = interactionDTo.Reaccion
+                };
 
-                // Crear una nueva instancia de Interaction con los datos generados
+                await _interactionRepository.CreateAsync(interaction);
+            }
+            catch (Exception ex)
+            {
+                // Manejar cualquier excepción que pueda ocurrir al guardar la interacción.
+                // Puedes registrar el error o realizar cualquier otra acción necesaria.
+                throw ex;
+            }
+        }
+        /*
+        public async Task CreateInteractionAsync(string reaccion, string ip)
+        {
+            try
+            {
+            
+                string hora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+                string textColor = GenerarColorConRedesNeuronales();
+                string contentColor = GenerarColorConRedesNeuronales();
+
                 var interaction = new Interaction
                 {
                     Ip = ip,
@@ -53,7 +82,7 @@ namespace LogicaNegocios
                 throw ex;
             }
         }
-
+        */
         private string GenerarColorConRedesNeuronales()
         {
             // Lógica para generar un color utilizando redes neuronales

@@ -37,12 +37,5 @@ namespace Dal
                 throw ex;
             }
         }
-        private string GenerarColorConRedesNeuronales()
-        {
-            // Lógica para generar un color utilizando redes neuronales
-            // Puedes implementar aquí tu algoritmo de generación de colores
-            // y devolver el color en un formato adecuado (por ejemplo, como un código hexadecimal).
-            return "#FFAABB"; // Ejemplo de un color hexadecimal
-        }
     }
 }

@@ -49,25 +49,20 @@ namespace RandomColors.Controllers
       
 
         [HttpPost]
-        public async Task<IActionResult> LikeAsync()
+        public async Task<IActionResult> LikeAsync([FromBody] InteractionDTo interactionDTo)
         {
             try
             {
-                // Obtener la dirección IP del usuario
                 string ip = HttpContext.Connection.RemoteIpAddress?.ToString();
 
-                // Obtener la hora actual y convertirla a un formato deseado
-                string hora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-
-                // Llamar al método de servicio para crear la interacción con "like"
-                await _interactionService.CreateInteractionAsync(ip, hora, "Like");
+          
+                await _interactionService.CreateInteractionAsync(interactionDTo, ip);
 
                 return Ok();
             }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción que pueda ocurrir al guardar la interacción.
-                // Puedes registrar el error o realizar cualquier otra acción necesaria.
+                Console.WriteLine(ex.ToString());
                 return StatusCode(500, "Error interno del servidor");
             }
         }

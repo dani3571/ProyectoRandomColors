@@ -504,7 +504,8 @@
       },
       "LogicaNegocios/1.0.0": {
         "dependencies": {
-          "Dal": "1.0.0"
+          "Dal": "1.0.0",
+          "Microsoft.AspNetCore.Http": "2.2.2"
         },
         "runtime": {
           "LogicaNegocios.dll": {}

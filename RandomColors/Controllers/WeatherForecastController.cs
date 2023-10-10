@@ -2,7 +2,8 @@ using Dal;
 using Entities.Models;
 using LogicaNegocios;
 using Microsoft.AspNetCore.Mvc;
-
+using Newtonsoft.Json.Linq;
+using Microsoft.AspNetCore.Http;
 namespace RandomColors.Controllers
 {
     [ApiController]
@@ -45,7 +46,30 @@ namespace RandomColors.Controllers
             // Puedes agregar lógica adicional aquí si es necesario
             return await _interactionService.GetInteractionsAsync();
         }
+      
 
+        [HttpPost]
+        public async Task<IActionResult> LikeAsync()
+        {
+            try
+            {
+                // Obtener la dirección IP del usuario
+                string ip = HttpContext.Connection.RemoteIpAddress?.ToString();
 
+                // Obtener la hora actual y convertirla a un formato deseado
+                string hora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+                // Llamar al método de servicio para crear la interacción con "like"
+                await _interactionService.CreateInteractionAsync(ip, hora, "Like");
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                // Manejar cualquier excepción que pueda ocurrir al guardar la interacción.
+                // Puedes registrar el error o realizar cualquier otra acción necesaria.
+                return StatusCode(500, "Error interno del servidor");
+            }
+        }
     }
 }

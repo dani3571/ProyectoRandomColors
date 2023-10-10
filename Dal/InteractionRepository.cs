@@ -23,16 +23,26 @@ namespace Dal
         public async Task<List<Interaction>> GetAsync() =>
           await _interactionCollection.Find(new BsonDocument()).ToListAsync();
 
-//        _ => true
-        /*
-        public InteractionRepository(string connectionString, string databaseName, string collectionName)
-        {
-            var mongoClient = new MongoClient(connectionString);
-            var database = mongoClient.GetDatabase(databaseName);
-            _interactionCollection = database.GetCollection<Interaction>(collectionName);
-        }
 
-      
-        */
+
+        public async Task CreateAsync(Interaction interaction)
+        {
+            try
+            {
+                await _interactionCollection.InsertOneAsync(interaction);
+            }
+            catch (Exception ex)
+            {
+                
+                throw ex;
+            }
+        }
+        private string GenerarColorConRedesNeuronales()
+        {
+            // Lógica para generar un color utilizando redes neuronales
+            // Puedes implementar aquí tu algoritmo de generación de colores
+            // y devolver el color en un formato adecuado (por ejemplo, como un código hexadecimal).
+            return "#FFAABB"; // Ejemplo de un color hexadecimal
+        }
     }
 }

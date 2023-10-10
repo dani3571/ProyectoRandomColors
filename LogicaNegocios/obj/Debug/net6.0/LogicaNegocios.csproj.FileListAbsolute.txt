@@ -1,0 +1,17 @@
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\LogicaNegocios.deps.json
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\LogicaNegocios.dll
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\LogicaNegocios.pdb
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\Dal.dll
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\Entities.dll
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\Dal.pdb
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\Entities.pdb
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.csproj.CopyComplete
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.dll
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\refint\LogicaNegocios.dll
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.pdb
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\ref\LogicaNegocios.dll

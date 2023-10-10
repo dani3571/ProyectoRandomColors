@@ -1,9 +1,11 @@
+using Entities.Models;
+using LogicaNegocios;
 using Microsoft.AspNetCore.Mvc;
 
 namespace RandomColors.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -12,13 +14,17 @@ namespace RandomColors.Controllers
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly InteractionLN _interactionLN;
+      
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, InteractionLN interactionLN)
         {
             _logger = logger;
+            _interactionLN = interactionLN;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+//        [HttpGet(Name = "GetWeatherForecast")]
+
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -29,5 +35,15 @@ namespace RandomColors.Controllers
             })
             .ToArray();
         }
+
+
+        [HttpGet]
+        public async Task<List<Interaction>> GetInteractionsAsync()
+        {
+            // Puedes agregar lógica adicional aquí si es necesario
+            return await _interactionLN.GetInteractionsAsync();
+        }
+
+
     }
 }

@@ -1,17 +1,86 @@
 {
   "format": 1,
   "restore": {
-    "D:\\6 Semestre\\Tecnologias Emergentes\\RandomColors\\LogicaNegocios\\LogicaNegocios.csproj": {}
+    "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\LogicaNegocios\\LogicaNegocios.csproj": {}
   },
   "projects": {
-    "D:\\6 Semestre\\Tecnologias Emergentes\\RandomColors\\LogicaNegocios\\LogicaNegocios.csproj": {
+    "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\6 Semestre\\Tecnologias Emergentes\\RandomColors\\LogicaNegocios\\LogicaNegocios.csproj",
-        "projectName": "LogicaNegocios",
-        "projectPath": "D:\\6 Semestre\\Tecnologias Emergentes\\RandomColors\\LogicaNegocios\\LogicaNegocios.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Dal\\Dal.csproj",
+        "projectName": "Dal",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Dal\\Dal.csproj",
         "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "D:\\6 Semestre\\Tecnologias Emergentes\\RandomColors\\LogicaNegocios\\obj\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Dal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Cloud.Firestore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,6 +97,75 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Cloud.Firestore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\LogicaNegocios\\LogicaNegocios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\LogicaNegocios\\LogicaNegocios.csproj",
+        "projectName": "LogicaNegocios",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\LogicaNegocios\\LogicaNegocios.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\LogicaNegocios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Dal\\Dal.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Dal\\Dal.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

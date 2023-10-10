@@ -1,0 +1,15 @@
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\bin\Debug\net6.0\Dal.deps.json
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\bin\Debug\net6.0\Dal.dll
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\bin\Debug\net6.0\Dal.pdb
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\bin\Debug\net6.0\Entities.dll
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\bin\Debug\net6.0\Entities.pdb
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.csproj.AssemblyReference.cache
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.csproj.CopyComplete
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.dll
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\refint\Dal.dll
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.pdb
+C:\Users\danie\OneDrive\Escritorio\ProyectoRandomColors\Dal\obj\Debug\net6.0\ref\Dal.dll

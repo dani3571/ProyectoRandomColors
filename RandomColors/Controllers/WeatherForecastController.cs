@@ -40,22 +40,20 @@ namespace RandomColors.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet("GetWeatherForecast")]
         public async Task<List<Interaction>> GetInteractionsAsync()
         {
             // Puedes agregar lógica adicional aquí si es necesario
             return await _interactionService.GetInteractionsAsync();
         }
-      
 
-        [HttpPost]
+
+        [HttpPost("CreateInteraction")]
         public async Task<IActionResult> LikeAsync([FromBody] InteractionDTo interactionDTo)
         {
             try
             {
                 string ip = HttpContext.Connection.RemoteIpAddress?.ToString();
-
-          
                 await _interactionService.CreateInteractionAsync(interactionDTo, ip);
 
                 return Ok();

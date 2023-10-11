@@ -48,8 +48,6 @@ namespace LogicaNegocios
             }
             catch (Exception ex)
             {
-                // Manejar cualquier excepción que pueda ocurrir al guardar la interacción.
-                // Puedes registrar el error o realizar cualquier otra acción necesaria.
                 throw ex;
             }
         }

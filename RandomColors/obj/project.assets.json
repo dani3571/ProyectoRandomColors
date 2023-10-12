@@ -2365,25 +2365,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Familia\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Alumno\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ProyectoRandomColors\\RandomColors\\RandomColors.csproj",
+      "projectUniqueName": "E:\\Adrian Herrera\\ProyectoRandomColors\\RandomColors\\RandomColors.csproj",
       "projectName": "RandomColors",
-      "projectPath": "G:\\ProyectoRandomColors\\RandomColors\\RandomColors.csproj",
-      "packagesPath": "C:\\Users\\Familia\\.nuget\\packages\\",
-      "outputPath": "G:\\ProyectoRandomColors\\RandomColors\\obj\\",
+      "projectPath": "E:\\Adrian Herrera\\ProyectoRandomColors\\RandomColors\\RandomColors.csproj",
+      "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+      "outputPath": "E:\\Adrian Herrera\\ProyectoRandomColors\\RandomColors\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2396,8 +2399,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "G:\\ProyectoRandomColors\\LogicaNegocios\\LogicaNegocios.csproj": {
-              "projectPath": "G:\\ProyectoRandomColors\\LogicaNegocios\\LogicaNegocios.csproj"
+            "E:\\Adrian Herrera\\ProyectoRandomColors\\LogicaNegocios\\LogicaNegocios.csproj": {
+              "projectPath": "E:\\Adrian Herrera\\ProyectoRandomColors\\LogicaNegocios\\LogicaNegocios.csproj"
             }
           }
         }
@@ -2440,7 +2443,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

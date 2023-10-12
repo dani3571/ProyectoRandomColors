@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ProyectoRandomColors\\Dal\\Dal.csproj": {}
+    "E:\\Adrian Herrera\\ProyectoRandomColors\\Dal\\Dal.csproj": {}
   },
   "projects": {
-    "G:\\ProyectoRandomColors\\Dal\\Dal.csproj": {
+    "E:\\Adrian Herrera\\ProyectoRandomColors\\Dal\\Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ProyectoRandomColors\\Dal\\Dal.csproj",
+        "projectUniqueName": "E:\\Adrian Herrera\\ProyectoRandomColors\\Dal\\Dal.csproj",
         "projectName": "Dal",
-        "projectPath": "G:\\ProyectoRandomColors\\Dal\\Dal.csproj",
-        "packagesPath": "C:\\Users\\Familia\\.nuget\\packages\\",
-        "outputPath": "G:\\ProyectoRandomColors\\Dal\\obj\\",
+        "projectPath": "E:\\Adrian Herrera\\ProyectoRandomColors\\Dal\\Dal.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "E:\\Adrian Herrera\\ProyectoRandomColors\\Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -32,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\ProyectoRandomColors\\Entities\\Entities.csproj": {
-                "projectPath": "G:\\ProyectoRandomColors\\Entities\\Entities.csproj"
+              "E:\\Adrian Herrera\\ProyectoRandomColors\\Entities\\Entities.csproj": {
+                "projectPath": "E:\\Adrian Herrera\\ProyectoRandomColors\\Entities\\Entities.csproj"
               }
             }
           }
@@ -77,26 +79,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\ProyectoRandomColors\\Entities\\Entities.csproj": {
+    "E:\\Adrian Herrera\\ProyectoRandomColors\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ProyectoRandomColors\\Entities\\Entities.csproj",
+        "projectUniqueName": "E:\\Adrian Herrera\\ProyectoRandomColors\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "G:\\ProyectoRandomColors\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Familia\\.nuget\\packages\\",
-        "outputPath": "G:\\ProyectoRandomColors\\Entities\\obj\\",
+        "projectPath": "E:\\Adrian Herrera\\ProyectoRandomColors\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
+        "outputPath": "E:\\Adrian Herrera\\ProyectoRandomColors\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -146,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

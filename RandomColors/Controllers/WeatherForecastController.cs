@@ -39,11 +39,17 @@ namespace RandomColors.Controllers
             })
             .ToArray();
         }
-
+        [HttpGet("GetNewInteraction")]
+        public InteractionRequest GetNewInteraction()
+        {
+            Response.Headers.Add("Access-Control-Allow-Origin", "http://localhost:3000");
+            return _interactionService.GetInteractionRequest();
+        }
 
         [HttpGet("GetInteractions")]
         public async Task<List<Interaction>> GetInteractionsAsync()
         {
+            Response.Headers.Add("Access-Control-Allow-Origin", "http://localhost:3000");
             return await _interactionService.GetInteractionsAsync();
         }
 

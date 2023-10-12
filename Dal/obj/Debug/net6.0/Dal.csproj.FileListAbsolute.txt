@@ -28,3 +28,18 @@ G:\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.dll
 G:\ProyectoRandomColors\Dal\obj\Debug\net6.0\refint\Dal.dll
 G:\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.pdb
 G:\ProyectoRandomColors\Dal\obj\Debug\net6.0\ref\Dal.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\bin\Debug\net6.0\Dal.deps.json
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\bin\Debug\net6.0\Dal.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\bin\Debug\net6.0\Dal.pdb
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\bin\Debug\net6.0\Entities.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\bin\Debug\net6.0\Entities.pdb
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.csproj.AssemblyReference.cache
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.AssemblyInfoInputs.cache
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.AssemblyInfo.cs
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.csproj.CoreCompileInputs.cache
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.csproj.CopyComplete
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\refint\Dal.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\Dal.pdb
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Dal\obj\Debug\net6.0\ref\Dal.dll

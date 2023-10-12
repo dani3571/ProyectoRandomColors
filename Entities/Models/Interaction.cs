@@ -16,6 +16,7 @@ namespace Entities.Models
 
         public string Ip { get; set; }
         public string Hora { get; set; }
+        public string Text { get; set; }
         public string TextColor { get; set; }
         public string ContentColor { get; set; }
         public string Reaccion { get; set; }

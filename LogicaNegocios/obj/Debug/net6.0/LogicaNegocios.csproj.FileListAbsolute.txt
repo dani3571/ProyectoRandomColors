@@ -32,3 +32,20 @@ G:\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.dll
 G:\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\refint\LogicaNegocios.dll
 G:\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.pdb
 G:\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\ref\LogicaNegocios.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\LogicaNegocios.deps.json
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\LogicaNegocios.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\LogicaNegocios.pdb
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\Dal.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\Entities.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\Dal.pdb
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\bin\Debug\net6.0\Entities.pdb
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.csproj.AssemblyReference.cache
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.AssemblyInfoInputs.cache
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.AssemblyInfo.cs
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.csproj.CoreCompileInputs.cache
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.csproj.CopyComplete
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\refint\LogicaNegocios.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\LogicaNegocios.pdb
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\LogicaNegocios\obj\Debug\net6.0\ref\LogicaNegocios.dll

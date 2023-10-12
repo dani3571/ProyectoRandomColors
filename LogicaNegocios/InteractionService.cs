@@ -34,11 +34,12 @@ namespace LogicaNegocios
 
                 string textColor = GenerarColorConRedesNeuronales();
                 string contentColor = GenerarColorConRedesNeuronales();
-
+                string text = Generartext();
                 var interaction = new Interaction
                 {
                     Ip = ip,
                     Hora = hora,
+                    Text = text,
                     TextColor = textColor,
                     ContentColor = contentColor,
                     Reaccion = interactionDTo.Reaccion
@@ -83,11 +84,11 @@ namespace LogicaNegocios
         */
         private string GenerarColorConRedesNeuronales()
         {
-            // Lógica para generar un color utilizando redes neuronales
-            // Puedes implementar aquí tu algoritmo de generación de colores
-            // y devolver el color en un formato adecuado (por ejemplo, como un código hexadecimal).
-            return "#FFAABB"; // Ejemplo de un color hexadecimal
+                return "#FFAABB"; 
         }
-
+        private string Generartext()
+        {
+            return "Buenos dias";
+        }
     }
 }

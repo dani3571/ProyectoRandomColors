@@ -22,3 +22,15 @@ G:\ProyectoRandomColors\Entities\obj\Debug\net6.0\Entities.dll
 G:\ProyectoRandomColors\Entities\obj\Debug\net6.0\refint\Entities.dll
 G:\ProyectoRandomColors\Entities\obj\Debug\net6.0\Entities.pdb
 G:\ProyectoRandomColors\Entities\obj\Debug\net6.0\ref\Entities.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\bin\Debug\net6.0\Entities.deps.json
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\bin\Debug\net6.0\Entities.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\bin\Debug\net6.0\Entities.pdb
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\obj\Debug\net6.0\Entities.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\obj\Debug\net6.0\refint\Entities.dll
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\obj\Debug\net6.0\Entities.pdb
+D:\6 Semestre\Tecnologias Emergentes\ProyectoRandomColors\Entities\obj\Debug\net6.0\ref\Entities.dll

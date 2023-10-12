@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Tools\\Tools.csproj": {}
+    "G:\\ProyectoRandomColors\\Tools\\Tools.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Tools\\Tools.csproj": {
+    "G:\\ProyectoRandomColors\\Tools\\Tools.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Tools\\Tools.csproj",
+        "projectUniqueName": "G:\\ProyectoRandomColors\\Tools\\Tools.csproj",
         "projectName": "Tools",
-        "projectPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Tools\\Tools.csproj",
-        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danie\\OneDrive\\Escritorio\\ProyectoRandomColors\\Tools\\obj\\",
+        "projectPath": "G:\\ProyectoRandomColors\\Tools\\Tools.csproj",
+        "packagesPath": "C:\\Users\\Familia\\.nuget\\packages\\",
+        "outputPath": "G:\\ProyectoRandomColors\\Tools\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Familia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

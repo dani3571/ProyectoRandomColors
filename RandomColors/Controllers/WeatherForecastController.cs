@@ -26,7 +26,8 @@ namespace RandomColors.Controllers
             _interactionService = interactionService;
         }
 
-//        [HttpGet(Name = "GetWeatherForecast")]
+
+        [HttpGet("GetWeatherForecast")]
 
         public IEnumerable<WeatherForecast> Get()
         {
@@ -40,10 +41,9 @@ namespace RandomColors.Controllers
         }
 
 
-        [HttpGet("GetWeatherForecast")]
+        [HttpGet("GetInteractions")]
         public async Task<List<Interaction>> GetInteractionsAsync()
         {
-            // Puedes agregar lógica adicional aquí si es necesario
             return await _interactionService.GetInteractionsAsync();
         }
 

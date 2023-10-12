@@ -9,5 +9,7 @@ namespace Entities.Models
     public class InteractionDTo
     {
         public string Reaccion { get; set; }
+        public string ContentColor { get; set; }
+        public string TextColor { get; set; }
     }
 }

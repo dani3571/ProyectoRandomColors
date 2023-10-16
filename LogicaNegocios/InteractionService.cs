@@ -40,21 +40,55 @@ namespace LogicaNegocios
             try
             {
                 string hora = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-
-                string textColor = GenerarColorConRedesNeuronales();
-                string contentColor = GenerarColorConRedesNeuronales();
-                string text = GenerarMessage().message;
                 var interaction = new Interaction
                 {
                     Ip = ip,
                     Hora = hora,
-                    Text = text,
-                    TextColor = textColor,
-                    ContentColor = contentColor,
-                    Reaccion = interactionDTo.Reaccion
+                    Text = interactionDTo.Reaccion,
+                    TextColor = interactionDTo.TextColor,
+                    ContentColor = interactionDTo.ContentColor,
+                    Reaccion = interactionDTo.Reaccion,
+                    TipoReaccion = interactionDTo.ReactionType
                 };
 
                 await _interactionRepository.CreateAsync(interaction);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public async Task<Users> GetUser(string email)
+        {
+            try
+            {
+                return await _interactionRepository.GetUserAsync(email);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public async Task<UserRequest> GetUserReactionAsync(string email)
+        {
+            try
+            {
+               return  await _interactionRepository.GetReactionAsync(email);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public async Task CreateUserAsync(UserDTo user)
+        {
+            try
+            {
+                Users newUser = new Users
+                {
+                    Email = user.Email
+                };
+                await _interactionRepository.CreateNewUserAsync(newUser);
             }
             catch (Exception ex)
             {

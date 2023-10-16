@@ -11,5 +11,6 @@ namespace Entities.Models
         public string Reaccion { get; set; }
         public string ContentColor { get; set; }
         public string TextColor { get; set; }
+        public bool ReactionType { get; set; }
     }
 }

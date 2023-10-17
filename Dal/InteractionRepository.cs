@@ -20,7 +20,7 @@ namespace Dal
             MongoClient client = new MongoClient(mongoDBSettings.Value.ConnectionString);
             IMongoDatabase database = client.GetDatabase(mongoDBSettings.Value.DatabaseName);
             _interactionCollection = database.GetCollection<Interaction>(mongoDBSettings.Value.InteractionCollectionName);
-            _usersCollection = database.GetCollection<Users>(mongoDBSettings.Value.InteractionCollectionName);
+            _usersCollection = database.GetCollection<Users>("users");
         }
         public async Task<List<Interaction>> GetAsync() =>
           await _interactionCollection.Find(new BsonDocument()).ToListAsync();

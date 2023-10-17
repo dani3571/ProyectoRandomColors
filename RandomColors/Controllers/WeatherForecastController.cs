@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Google.Api;
 using Microsoft.Extensions.Hosting;
 using ZstdSharp.Unsafe;
+using Microsoft.Extensions.Options;
 
 namespace RandomColors.Controllers
 {
@@ -74,6 +75,7 @@ namespace RandomColors.Controllers
             {
                 string ip = HttpContext.Connection.RemoteIpAddress?.ToString();
                 await _interactionService.CreateUserAsync(user);
+                //Response.Headers.Add("Access-Control-Allow-Methods:", "GET, POST, DELETE, HEAD, OPTIONS");
                 Response.Headers.Add("Access-Control-Allow-Origin", "*");
                 return Ok(user);
             }
@@ -92,6 +94,7 @@ namespace RandomColors.Controllers
             {
                 string ip = HttpContext.Connection.RemoteIpAddress?.ToString();
                 await _interactionService.CreateInteractionAsync(interactionDTo, ip);
+                //Response.Headers.Add("Access-Control-Allow-Methods:", "GET, POST, DELETE, HEAD, OPTIONS");
                 Response.Headers.Add("Access-Control-Allow-Origin", "*");
                 return Ok(interactionDTo);
             }

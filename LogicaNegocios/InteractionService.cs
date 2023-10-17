@@ -48,7 +48,7 @@ namespace LogicaNegocios
                     TextColor = interactionDTo.TextColor,
                     ContentColor = interactionDTo.ContentColor,
                     Reaccion = interactionDTo.Reaccion,
-                    TipoReaccion = interactionDTo.ReactionType
+                    TipoReaccion = interactionDTo.ReactionType,
                     Imagen = interactionDTo.imagen
                 };
 

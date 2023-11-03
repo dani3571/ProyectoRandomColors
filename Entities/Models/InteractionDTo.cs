@@ -13,5 +13,6 @@ namespace Entities.Models
         public string TextColor { get; set; }
         public bool ReactionType { get; set; }
         public string imagen { get; set; }
+        public string gama { get; set; }
     }
 }

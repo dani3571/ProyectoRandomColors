@@ -1,0 +1,11 @@
+E:\Adrian Herrera\ProyectoRandomColors\Tools\bin\Release\net6.0\Tools.deps.json
+E:\Adrian Herrera\ProyectoRandomColors\Tools\bin\Release\net6.0\Tools.dll
+E:\Adrian Herrera\ProyectoRandomColors\Tools\bin\Release\net6.0\Tools.pdb
+E:\Adrian Herrera\ProyectoRandomColors\Tools\obj\Release\net6.0\Tools.GeneratedMSBuildEditorConfig.editorconfig
+E:\Adrian Herrera\ProyectoRandomColors\Tools\obj\Release\net6.0\Tools.AssemblyInfoInputs.cache
+E:\Adrian Herrera\ProyectoRandomColors\Tools\obj\Release\net6.0\Tools.AssemblyInfo.cs
+E:\Adrian Herrera\ProyectoRandomColors\Tools\obj\Release\net6.0\Tools.csproj.CoreCompileInputs.cache
+E:\Adrian Herrera\ProyectoRandomColors\Tools\obj\Release\net6.0\Tools.dll
+E:\Adrian Herrera\ProyectoRandomColors\Tools\obj\Release\net6.0\refint\Tools.dll
+E:\Adrian Herrera\ProyectoRandomColors\Tools\obj\Release\net6.0\Tools.pdb
+E:\Adrian Herrera\ProyectoRandomColors\Tools\obj\Release\net6.0\ref\Tools.dll

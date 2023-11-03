@@ -1,0 +1,15 @@
+E:\Adrian Herrera\ProyectoRandomColors\Dal\bin\Release\net6.0\Dal.deps.json
+E:\Adrian Herrera\ProyectoRandomColors\Dal\bin\Release\net6.0\Dal.dll
+E:\Adrian Herrera\ProyectoRandomColors\Dal\bin\Release\net6.0\Dal.pdb
+E:\Adrian Herrera\ProyectoRandomColors\Dal\bin\Release\net6.0\Entities.dll
+E:\Adrian Herrera\ProyectoRandomColors\Dal\bin\Release\net6.0\Entities.pdb
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\Dal.csproj.AssemblyReference.cache
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\Dal.AssemblyInfoInputs.cache
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\Dal.AssemblyInfo.cs
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\Dal.csproj.CoreCompileInputs.cache
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\Dal.csproj.CopyComplete
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\Dal.dll
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\refint\Dal.dll
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\Dal.pdb
+E:\Adrian Herrera\ProyectoRandomColors\Dal\obj\Release\net6.0\ref\Dal.dll

@@ -1,0 +1,17 @@
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\bin\Release\net6.0\LogicaNegocios.deps.json
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\bin\Release\net6.0\LogicaNegocios.dll
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\bin\Release\net6.0\LogicaNegocios.pdb
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\bin\Release\net6.0\Dal.dll
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\bin\Release\net6.0\Entities.dll
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\bin\Release\net6.0\Dal.pdb
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\bin\Release\net6.0\Entities.pdb
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\LogicaNegocios.csproj.AssemblyReference.cache
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\LogicaNegocios.GeneratedMSBuildEditorConfig.editorconfig
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\LogicaNegocios.AssemblyInfoInputs.cache
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\LogicaNegocios.AssemblyInfo.cs
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\LogicaNegocios.csproj.CoreCompileInputs.cache
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\LogicaNegocios.csproj.CopyComplete
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\LogicaNegocios.dll
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\refint\LogicaNegocios.dll
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\LogicaNegocios.pdb
+E:\Adrian Herrera\ProyectoRandomColors\LogicaNegocios\obj\Release\net6.0\ref\LogicaNegocios.dll

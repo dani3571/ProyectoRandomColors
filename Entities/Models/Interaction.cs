@@ -21,5 +21,6 @@ namespace Entities.Models
         public string Reaccion { get; set; }
         public string Imagen { get; set; }
         public bool TipoReaccion { get; set; }
+        public string Gama { get; set; }
     }
 }

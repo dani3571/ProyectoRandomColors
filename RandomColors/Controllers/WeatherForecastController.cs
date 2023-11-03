@@ -47,25 +47,25 @@ namespace RandomColors.Controllers
         [HttpGet("GetNewInteraction")]
         public InteractionRequest GetNewInteraction()
         {
-            Response.Headers.Add("Access-Control-Allow-Origin", "*");
+            //Response.Headers.Add("Access-Control-Allow-Origin", "*");
             return _interactionService.GetInteractionRequest();
         }
         [HttpGet("GetUserInteraction/{email}")]
         public async Task<UserRequest> GetUser(string email)
         {
-            Response.Headers.Add("Access-Control-Allow-Origin", "*");
+            //Response.Headers.Add("Access-Control-Allow-Origin", "*");
             return await _interactionService.GetUserReactionAsync(email);
         }
         [HttpGet("GetInteractions")]
         public async Task<List<Interaction>> GetInteractionsAsync()
         {
-            Response.Headers.Add("Access-Control-Allow-Origin", "*");
+            //Response.Headers.Add("Access-Control-Allow-Origin", "*");
             return await _interactionService.GetInteractionsAsync();
         }
         [HttpGet("GetUserByEmail/{email}")]
         public async Task<Users> GetUserByEmail(string email)
         {
-            Response.Headers.Add("Access-Control-Allow-Origin", "*");
+            //Response.Headers.Add("Access-Control-Allow-Origin", "*");
             return await _interactionService.GetUser(email);
         }
         [HttpPost("CreateNewUser")]
@@ -76,13 +76,13 @@ namespace RandomColors.Controllers
                 string ip = HttpContext.Connection.RemoteIpAddress?.ToString();
                 await _interactionService.CreateUserAsync(user);
                 //Response.Headers.Add("Access-Control-Allow-Methods:", "GET, POST, DELETE, HEAD, OPTIONS");
-                Response.Headers.Add("Access-Control-Allow-Origin", "*");
+                //Response.Headers.Add("Access-Control-Allow-Origin", "*");
                 return Ok(user);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
-                Response.Headers.Add("Access-Control-Allow-Origin", "*");
+                //Response.Headers.Add("Access-Control-Allow-Origin", "*");
                 return StatusCode(500, "Error interno del servidor");
             }
         }
@@ -95,13 +95,13 @@ namespace RandomColors.Controllers
                 string ip = HttpContext.Connection.RemoteIpAddress?.ToString();
                 await _interactionService.CreateInteractionAsync(interactionDTo, ip);
                 //Response.Headers.Add("Access-Control-Allow-Methods:", "GET, POST, DELETE, HEAD, OPTIONS");
-                Response.Headers.Add("Access-Control-Allow-Origin", "*");
+                //Response.Headers.Add("Access-Control-Allow-Origin", "*");
                 return Ok(interactionDTo);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
-                Response.Headers.Add("Access-Control-Allow-Origin", "*");
+                //Response.Headers.Add("Access-Control-Allow-Origin", "*");
                 return StatusCode(500, "Error interno del servidor");
             }
         }

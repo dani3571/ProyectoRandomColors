@@ -1,0 +1,3 @@
+E:\Escritorio\Builds\Tools\Tools.dll
+E:\Escritorio\Builds\Tools\Tools.deps.json
+E:\Escritorio\Builds\Tools\Tools.pdb

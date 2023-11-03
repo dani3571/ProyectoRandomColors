@@ -49,7 +49,8 @@ namespace LogicaNegocios
                     ContentColor = interactionDTo.ContentColor,
                     Reaccion = interactionDTo.Reaccion,
                     TipoReaccion = interactionDTo.ReactionType,
-                    Imagen = interactionDTo.imagen
+                    Imagen = interactionDTo.imagen,
+                    Gama = interactionDTo.gama
                 };
 
                 await _interactionRepository.CreateAsync(interaction);

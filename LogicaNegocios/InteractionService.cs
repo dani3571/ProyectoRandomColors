@@ -43,7 +43,7 @@ namespace LogicaNegocios
                 var interaction = new Interaction
                 {
                     Ip = ip,
-                    Hora = hora,
+                    Hora = ObtenerFechaHoraAleatoria(),
                     Text = interactionDTo.Reaccion,
                     TextColor = interactionDTo.TextColor,
                     ContentColor = interactionDTo.ContentColor,
@@ -59,6 +59,24 @@ namespace LogicaNegocios
             {
                 throw ex;
             }
+        }
+        static string ObtenerFechaHoraAleatoria()
+        {
+            Random random = new Random();
+
+            DateTime fechaInicio = new DateTime(2023, 10, 1);
+            DateTime fechaFin = new DateTime(2023, 11, 17);
+
+            int rangoDias = (fechaFin - fechaInicio).Days;
+            DateTime fechaAleatoria = fechaInicio.AddDays(random.Next(rangoDias));
+
+            int hora = random.Next(0, 24);
+            int minuto = random.Next(0, 60);
+            int segundo = random.Next(0, 60);
+
+            string fechaHoraAleatoria = fechaAleatoria.ToString("yyyy-MM-dd") + $" {hora:D2}:{minuto:D2}:{segundo:D2}";
+
+            return fechaHoraAleatoria;
         }
         public async Task<Users> GetUser(string email)
         {
